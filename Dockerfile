@@ -39,5 +39,3 @@ RUN mkdir -p /usr/local/var/singularity/mnt && \
     make -C builddir install
 
 RUN apk del automake libtool m4 autoconf alpine-sdk linux-headers
-
-
